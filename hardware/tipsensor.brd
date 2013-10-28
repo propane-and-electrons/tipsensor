@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 10/25/2013 11:56:12 PM
+PCBNEW-BOARD Version 2 date 10/27/2013 11:15:45 PM
 
 # Created by Pcbnew(2013-03-19 BZR 4004)-stable
 
@@ -7,11 +7,10 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 1FFF0000
 Links 73
 NoConn 0
-Di 124.9172 62.039499 194.017902 140.5128
-Ndraw 21
+Di 115.152714 60.0964 194.017902 146.1262
+Ndraw 24
 Ntrack 245
 Nzone 0
 BoardThickness 1.6002
@@ -22,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title ""
-Date "26 oct 2013"
+Date "28 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -61,8 +60,8 @@ PadDrill 0
 Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
-VisibleElements FFFFFBBF
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+VisibleElements 7FFFFFFF
+PcbPlotParams (pcbplotparams (layerselection 317751297) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory "C:/Documents and Settings/Administrator/Desktop/tipsensor-gerbers/"))
 $EndSETUP
 
 $EQUIPOT
@@ -1758,6 +1757,37 @@ Po 0 0
 .LocalClearance 0.1016
 $EndPAD
 $EndMODULE LFCSP_LQ_16
+$TEXTPCB
+Te "upper left corner, front"
+Po 135.89 60.96 1.016 1.016 0.1016 0
+De 25 1 0 Normal
+$EndTEXTPCB
+$COTATION
+Ge 0 25 0
+Va 76.2
+Te "3.0000 in"
+Po 120.9294 100.33 1.524 2.032 0.3048 900 1
+Sb 0 122.555 138.43 122.555 62.23 0.3048
+Sd 0 125.73 62.23 119.3038 62.23 0.3048
+Sg 0 125.73 138.43 119.3038 138.43 0.3048
+S1 0 122.555 62.23 123.14142 63.356503 0.3048
+S2 0 122.555 62.23 121.96858 63.356503 0.3048
+S3 0 122.555 138.43 123.14142 137.303497 0.3048
+S4 0 122.555 138.43 121.96858 137.303497 0.3048
+$endCOTATION
+$COTATION
+Ge 0 25 0
+Va 50.8
+Te "2.0000 in"
+Po 152.4 144.500599 1.524 2.032 0.3048 0 1
+Sb 0 127 142.874999 177.8 142.874999 0.3048
+Sd 0 177.8 139.7 177.8 146.126199 0.3048
+Sg 0 127 139.7 127 146.126199 0.3048
+S1 0 177.8 142.874999 176.673497 143.461419 0.3048
+S2 0 177.8 142.874999 176.673497 142.288579 0.3048
+S3 0 127 142.874999 128.126503 143.461419 0.3048
+S4 0 127 142.874999 128.126503 142.288579 0.3048
+$endCOTATION
 $TEXTPCB
 Te "design by"
 nl "seth hardy"
