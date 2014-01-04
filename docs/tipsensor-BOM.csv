@@ -6,7 +6,7 @@ Designator,Package,Quantity,Part,Digi-Key Part
 D5,LED-3MM,1,3mm LED (red),754-1606-ND
 "P1, P2, P3",PP-2H-5MMSCREWTERM,1,5mm screw terminal or Anderson Powerpole header,ED2600-ND
 P4,SIL-6,1,SFE ADXL335 BOB,SparkFun SEN-09269
-P5,ICSP_3X2,1,3x2 pin header,
+P5,ICSP_3X2,1,3x2 pin header,952-1895-ND
 Q1,TO220GDS_VERT,1,IRF510,IRF510PBF-ND
 R1,R3,1,390,390QBK-ND
 "R2,R6",R3,2,10k,10KQBK-ND
